@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A92F2623F972F3004CA0A3 /* ValueRetain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2523F972F3004CA0A3 /* ValueRetain.swift */; };
+		35A92F2923F973EA004CA0A3 /* RunLooooop.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2823F973EA004CA0A3 /* RunLooooop.m */; };
 		35F3056E23F6EAE6007802E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3056D23F6EAE6007802E8 /* AppDelegate.swift */; };
 		35F3057023F6EAE6007802E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3056F23F6EAE6007802E8 /* SceneDelegate.swift */; };
 		35F3057223F6EAE6007802E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3057123F6EAE6007802E8 /* ContentView.swift */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35A92F2523F972F3004CA0A3 /* ValueRetain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueRetain.swift; sourceTree = "<group>"; };
+		35A92F2723F973EA004CA0A3 /* RunLooooop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLooooop.h; sourceTree = "<group>"; };
+		35A92F2823F973EA004CA0A3 /* RunLooooop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLooooop.m; sourceTree = "<group>"; };
 		35F3056A23F6EAE6007802E8 /* iPhoneOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F3056D23F6EAE6007802E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35F3056F23F6EAE6007802E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 				35F3056D23F6EAE6007802E8 /* AppDelegate.swift */,
 				35F3056F23F6EAE6007802E8 /* SceneDelegate.swift */,
 				35F3057123F6EAE6007802E8 /* ContentView.swift */,
+				35A92F2523F972F3004CA0A3 /* ValueRetain.swift */,
+				35A92F2723F973EA004CA0A3 /* RunLooooop.h */,
+				35A92F2823F973EA004CA0A3 /* RunLooooop.m */,
 				35F3059E23F6EB19007802E8 /* isa.h */,
 				35F3059F23F6EB19007802E8 /* isa.m */,
 				35F3057323F6EAE8007802E8 /* Assets.xcassets */,
@@ -276,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F3056E23F6EAE6007802E8 /* AppDelegate.swift in Sources */,
+				35A92F2923F973EA004CA0A3 /* RunLooooop.m in Sources */,
 				35F305A023F6EB19007802E8 /* isa.m in Sources */,
 				35F3057023F6EAE6007802E8 /* SceneDelegate.swift in Sources */,
+				35A92F2623F972F3004CA0A3 /* ValueRetain.swift in Sources */,
 				35F3057223F6EAE6007802E8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
