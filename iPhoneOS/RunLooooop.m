@@ -23,10 +23,13 @@
 
  在项目中应用的话，
  1. RunLoop保证子线程的长时间存活，而不是执行完任务后就立刻销毁的应用场景。这个是系统自己在底层自己处理得。
- 2. 滑动与图片刷新: 当tableview的cell上有需要从网络获取的图片的时候，滚动tableView，异步线程会去加载图片，加载完成后主线程就会设置cell的图片，但是会造成卡顿。可以让设置图片的任务在CFRunLoopDefaultMode下进行，当滚动tableView的时候，RunLoop是在 UITrackingRunLoopMode 下进行，不去设置图片，而是当停止的时候，再去设置图片。
+ 2. 滑动与图片刷新: 当tableview的cell上有需要从网络获取的图片的时候，滚动tableView，异步线程会去加载图片，加载完成后主线程就会设置cell的图片(主线程刷新UI)，但是会造成卡顿。
+ 
+ 可以让设置图片的任务在CFRunLoopDefaultMode下进行，当滚动tableView的时候，RunLoop是在 UITrackingRunLoopMode 下进行，不去设置图片，而是当停止的时候，再去设置图片。
 
  - (void)viewDidLoad {
    [super viewDidLoad];
+ 
    // 只在NSDefaultRunLoopMode下执行(刷新图片)
    [self.myImageView performSelector:@selector(setImage:) withObject:[UIImage imageNamed:@""] afterDelay:ti inModes:@[NSDefaultRunLoopMode]];
  }
