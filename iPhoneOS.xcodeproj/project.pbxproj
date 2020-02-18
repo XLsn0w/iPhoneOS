@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352A6B2423FC1C7600C6AC0C /* AutoreleaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A6B2323FC1C7600C6AC0C /* AutoreleaseViewController.swift */; };
+		352A6B6223FC2DDB00C6AC0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A6B6123FC2DDB00C6AC0C /* ViewController.swift */; };
 		35A92F2623F972F3004CA0A3 /* ValueRetain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2523F972F3004CA0A3 /* ValueRetain.swift */; };
 		35A92F2923F973EA004CA0A3 /* RunLooooop.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2823F973EA004CA0A3 /* RunLooooop.m */; };
 		35A92F2C23F98212004CA0A3 /* Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2B23F98212004CA0A3 /* Responder.m */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		352A6B2323FC1C7600C6AC0C /* AutoreleaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoreleaseViewController.swift; sourceTree = "<group>"; };
+		352A6B6123FC2DDB00C6AC0C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35A92F2523F972F3004CA0A3 /* ValueRetain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueRetain.swift; sourceTree = "<group>"; };
 		35A92F2723F973EA004CA0A3 /* RunLooooop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLooooop.h; sourceTree = "<group>"; };
 		35A92F2823F973EA004CA0A3 /* RunLooooop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLooooop.m; sourceTree = "<group>"; };
@@ -119,8 +123,10 @@
 				35F3056D23F6EAE6007802E8 /* AppDelegate.swift */,
 				35F3056F23F6EAE6007802E8 /* SceneDelegate.swift */,
 				35F3057123F6EAE6007802E8 /* ContentView.swift */,
+				352A6B6123FC2DDB00C6AC0C /* ViewController.swift */,
 				35A92F2523F972F3004CA0A3 /* ValueRetain.swift */,
 				35F57CE023FACD5500B4CE14 /* KVO.swift */,
+				352A6B2323FC1C7600C6AC0C /* AutoreleaseViewController.swift */,
 				35A92F2723F973EA004CA0A3 /* RunLooooop.h */,
 				35A92F2823F973EA004CA0A3 /* RunLooooop.m */,
 				35A92F2A23F98212004CA0A3 /* Responder.h */,
@@ -297,8 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F3056E23F6EAE6007802E8 /* AppDelegate.swift in Sources */,
+				352A6B2423FC1C7600C6AC0C /* AutoreleaseViewController.swift in Sources */,
 				35A92F2F23F98258004CA0A3 /* ResponView.m in Sources */,
 				35F57CE123FACD5500B4CE14 /* KVO.swift in Sources */,
+				352A6B6223FC2DDB00C6AC0C /* ViewController.swift in Sources */,
 				35A92F2C23F98212004CA0A3 /* Responder.m in Sources */,
 				35A92F2923F973EA004CA0A3 /* RunLooooop.m in Sources */,
 				35F305A023F6EB19007802E8 /* isa.m in Sources */,
