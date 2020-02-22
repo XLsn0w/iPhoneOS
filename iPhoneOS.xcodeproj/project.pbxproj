@@ -11,6 +11,10 @@
 		3513930023FE7BF40097FCDD /* Crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351392FF23FE7BF40097FCDD /* Crash.swift */; };
 		352A6B2423FC1C7600C6AC0C /* AutoreleaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A6B2323FC1C7600C6AC0C /* AutoreleaseViewController.swift */; };
 		352A6B6223FC2DDB00C6AC0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352A6B6123FC2DDB00C6AC0C /* ViewController.swift */; };
+		353BFF5C2401798E00901372 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BFF5B2401798E00901372 /* Stack.swift */; };
+		353BFF5E24017BFF00901372 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BFF5D24017BFF00901372 /* Heap.swift */; };
+		353BFF6024017C4C00901372 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BFF5F24017C4C00901372 /* Queue.swift */; };
+		353BFF6224017E2C00901372 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353BFF6124017E2C00901372 /* Algorithm.swift */; };
 		354709A223FFE8CB00DF4810 /* SharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 354709A123FFE8CB00DF4810 /* SharedInstance.m */; };
 		35A92F2623F972F3004CA0A3 /* ValueRetain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2523F972F3004CA0A3 /* ValueRetain.swift */; };
 		35A92F2923F973EA004CA0A3 /* RunLooooop.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A92F2823F973EA004CA0A3 /* RunLooooop.m */; };
@@ -50,6 +54,10 @@
 		351392FF23FE7BF40097FCDD /* Crash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crash.swift; sourceTree = "<group>"; };
 		352A6B2323FC1C7600C6AC0C /* AutoreleaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoreleaseViewController.swift; sourceTree = "<group>"; };
 		352A6B6123FC2DDB00C6AC0C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		353BFF5B2401798E00901372 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		353BFF5D24017BFF00901372 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		353BFF5F24017C4C00901372 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		353BFF6124017E2C00901372 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		354709A023FFE8CB00DF4810 /* SharedInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedInstance.h; sourceTree = "<group>"; };
 		354709A123FFE8CB00DF4810 /* SharedInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedInstance.m; sourceTree = "<group>"; };
 		35A92F2523F972F3004CA0A3 /* ValueRetain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueRetain.swift; sourceTree = "<group>"; };
@@ -133,8 +141,8 @@
 				352A6B6123FC2DDB00C6AC0C /* ViewController.swift */,
 				35A92F2523F972F3004CA0A3 /* ValueRetain.swift */,
 				351392FF23FE7BF40097FCDD /* Crash.swift */,
-				35F57CE023FACD5500B4CE14 /* KVO.swift */,
 				351392FD23FE7BCC0097FCDD /* KVC.swift */,
+				35F57CE023FACD5500B4CE14 /* KVO.swift */,
 				354709A023FFE8CB00DF4810 /* SharedInstance.h */,
 				354709A123FFE8CB00DF4810 /* SharedInstance.m */,
 				352A6B2323FC1C7600C6AC0C /* AutoreleaseViewController.swift */,
@@ -146,6 +154,10 @@
 				35A92F2E23F98258004CA0A3 /* ResponView.m */,
 				35F3059E23F6EB19007802E8 /* isa.h */,
 				35F3059F23F6EB19007802E8 /* isa.m */,
+				353BFF5D24017BFF00901372 /* Heap.swift */,
+				353BFF5B2401798E00901372 /* Stack.swift */,
+				353BFF5F24017C4C00901372 /* Queue.swift */,
+				353BFF6124017E2C00901372 /* Algorithm.swift */,
 				35F3057323F6EAE8007802E8 /* Assets.xcassets */,
 				35F3057823F6EAE8007802E8 /* LaunchScreen.storyboard */,
 				35F3057B23F6EAE8007802E8 /* Info.plist */,
@@ -314,7 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F3056E23F6EAE6007802E8 /* AppDelegate.swift in Sources */,
+				353BFF6224017E2C00901372 /* Algorithm.swift in Sources */,
+				353BFF5C2401798E00901372 /* Stack.swift in Sources */,
 				354709A223FFE8CB00DF4810 /* SharedInstance.m in Sources */,
+				353BFF5E24017BFF00901372 /* Heap.swift in Sources */,
 				352A6B2423FC1C7600C6AC0C /* AutoreleaseViewController.swift in Sources */,
 				35A92F2F23F98258004CA0A3 /* ResponView.m in Sources */,
 				35F57CE123FACD5500B4CE14 /* KVO.swift in Sources */,
@@ -325,6 +340,7 @@
 				351392FE23FE7BCC0097FCDD /* KVC.swift in Sources */,
 				35F3057023F6EAE6007802E8 /* SceneDelegate.swift in Sources */,
 				3513930023FE7BF40097FCDD /* Crash.swift in Sources */,
+				353BFF6024017C4C00901372 /* Queue.swift in Sources */,
 				35A92F2623F972F3004CA0A3 /* ValueRetain.swift in Sources */,
 				35F3057223F6EAE6007802E8 /* ContentView.swift in Sources */,
 			);
