@@ -1,12 +1,14 @@
 platform :ios, '10.0'
-source 'https://git.coding.net/CocoaPods/Specs.git'
+#source 'https://git.coding.net/CocoaPods/Specs.git'
+source 'https://gitee.com/mirrors/CocoaPods-Specs‘
 
 use_frameworks!
-
 
 target 'RAC' do
 
     pod 'ReactiveObjC'
+    pod 'ReactiveSwift'
+    pod 'RxSwift'
 
 end
 

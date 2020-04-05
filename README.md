@@ -1,10 +1,11 @@
 # 解决CocoaPods镜像源地址卡下载慢问题
 
-使用源安装CocoaPods库
-git clone https://git.coding.net/CocoaPods/Specs.git ~/.cocoapods/repos/master
-
-如果特别慢，使用以下源安装CocoaPods库
+## 优先推荐（ source 'https://gitee.com/mirrors/CocoaPods-Specs‘ ）
+使用gitee源安装CocoaPods库
 git clone https://gitee.com/mirrors/CocoaPods-Specs.git ~/.cocoapods/repos/master
+
+使用coding源安装CocoaPods库
+git clone https://git.coding.net/CocoaPods/Specs.git ~/.cocoapods/repos/master
 
 为了解决方案二出现clone github镜像源比较慢的问题，可以换成coding提供的一个镜像源，命令行如下：
 ```
