@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		357276B624399B42008DD9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357276B424399B42008DD9CF /* LaunchScreen.storyboard */; };
 		357276C124399B42008DD9CF /* RxSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357276C024399B42008DD9CF /* RxSwiftDemoTests.swift */; };
 		357276CC24399B43008DD9CF /* RxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357276CB24399B43008DD9CF /* RxSwiftDemoUITests.swift */; };
+		3572771D2439BB83008DD9CF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572771C2439BB83008DD9CF /* Person.swift */; };
 		76AC4519052AA6FA4A46549B /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3600537F1D16F7ED6C64814 /* Pods_RxSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		357276C724399B42008DD9CF /* RxSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		357276CB24399B43008DD9CF /* RxSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		357276CD24399B43008DD9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3572771C2439BB83008DD9CF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B3600537F1D16F7ED6C64814 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69CAE1F03A83E4170CEA91D /* Pods-RxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +89,6 @@
 				C69CAE1F03A83E4170CEA91D /* Pods-RxSwiftDemo.debug.xcconfig */,
 				22E91C3016AF8073AF85BCF0 /* Pods-RxSwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -119,6 +120,7 @@
 				357276A924399B41008DD9CF /* AppDelegate.swift */,
 				357276AB24399B41008DD9CF /* SceneDelegate.swift */,
 				357276AD24399B41008DD9CF /* ViewController.swift */,
+				3572771C2439BB83008DD9CF /* Person.swift */,
 				357276AF24399B41008DD9CF /* Main.storyboard */,
 				357276B224399B42008DD9CF /* Assets.xcassets */,
 				357276B424399B42008DD9CF /* LaunchScreen.storyboard */,
@@ -330,6 +332,7 @@
 			files = (
 				357276AE24399B41008DD9CF /* ViewController.swift in Sources */,
 				357276AA24399B41008DD9CF /* AppDelegate.swift in Sources */,
+				3572771D2439BB83008DD9CF /* Person.swift in Sources */,
 				357276AC24399B41008DD9CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
