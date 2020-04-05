@@ -1,0 +1,15 @@
+platform :ios, '10.0'
+#source 'https://git.coding.net/CocoaPods/Specs.git'
+source 'https://gitee.com/mirrors/CocoaPods-Specs‘
+
+use_frameworks!
+
+target 'RACDemo' do
+
+    pod 'ReactiveObjC'
+    pod 'ReactiveSwift'
+    pod 'RxSwift'
+    pod 'CTMediator'
+
+end
+

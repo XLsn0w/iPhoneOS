@@ -1,0 +1,28 @@
+PODS:
+  - CTMediator (28)
+  - ReactiveObjC (3.1.1)
+  - ReactiveSwift (6.2.1)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - CTMediator
+  - ReactiveObjC
+  - ReactiveSwift
+  - RxSwift
+
+SPEC REPOS:
+  https://gitee.com/mirrors/CocoaPods-Specs:
+    - CTMediator
+    - ReactiveObjC
+    - ReactiveSwift
+    - RxSwift
+
+SPEC CHECKSUMS:
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  ReactiveSwift: 07ddf579f4eb3ee3bd656214f0461aaf2c0fd639
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: b474d9b1f9ad29702673516d36dd3c4833416265
+
+COCOAPODS: 1.9.1
