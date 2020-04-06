@@ -1,28 +1,25 @@
 PODS:
   - CTMediator (28)
   - ReactiveObjC (3.1.1)
-  - ReactiveSwift (6.2.1)
-  - RxSwift (5.1.1)
+  - XLsn0wKits (1.0.2)
 
 DEPENDENCIES:
   - CTMediator
   - ReactiveObjC
-  - ReactiveSwift
-  - RxSwift
+  - XLsn0wKits
 
 SPEC REPOS:
-  https://gitee.com/mirrors/CocoaPods-Specs:
+  https://github.com/cocoapods/specs.git:
     - CTMediator
     - ReactiveObjC
-    - ReactiveSwift
-    - RxSwift
+  https://github.com/XLsn0w/Specs.git:
+    - XLsn0wKits
 
 SPEC CHECKSUMS:
   CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  ReactiveSwift: 07ddf579f4eb3ee3bd656214f0461aaf2c0fd639
-  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  XLsn0wKits: 71d8b1981f70bdc6867c2e34135cd9601fd535ee
 
-PODFILE CHECKSUM: b474d9b1f9ad29702673516d36dd3c4833416265
+PODFILE CHECKSUM: fe3ae2835ff3c3c47aa825f1e2a757b7d695da16
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.6.0
