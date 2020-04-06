@@ -49,7 +49,90 @@ end
 
 # 私有Pod库
 
-版本控制是 GitLab
+```
+
+xlsn0w$ cd PodLib
+xlsn0w$ pod lib lint
+
+ -> PodLib (0.2.0)
+    - NOTE  | xcodebuild:  note: Using new build system
+    - NOTE  | [iOS] xcodebuild:  note: Planning build
+    - NOTE  | [iOS] xcodebuild:  note: Constructing build description
+    - NOTE  | [iOS] xcodebuild:  warning: Skipping code signing because the target does not have an Info.plist file and one is not being generated automatically. (in target 'App' from project 'App')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'PodLib' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'Pods-App' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'App' from project 'App')
+
+PodLib passed validation.
+
+
+
+
+
+
+xlsn0w$ pod spec lint
+
+ -> PodLib (0.2.0)
+    - NOTE  | xcodebuild:  note: Using new build system
+    - NOTE  | [iOS] xcodebuild:  note: Planning build
+    - NOTE  | [iOS] xcodebuild:  note: Constructing build description
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'PodLib' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'Pods-App' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'App' from project 'App')
+    - NOTE  | [iOS] xcodebuild:  warning: Skipping code signing because the target does not have an Info.plist file and one is not being generated automatically. (in target 'App' from project 'App')
+
+Analyzed 1 podspec.
+
+PodLib.podspec passed validation.
+
+
+
+
+
+
+
+xlsn0w$ pod repo add PodLib https://gitee.com/xlsn0w/PodSpec.git
+
+Cloning spec repo `PodLib` from `https://gitee.com/xlsn0w/PodSpec.git`
+
+xlsn0w$ pod repo push PodLib PodLib.podspec --sources=https://gitee.com/xlsn0w/PodSpec.git
+
+Validating spec
+ -> PodLib (0.2.0)
+    - NOTE  | xcodebuild:  note: Using new build system
+    - NOTE  | [iOS] xcodebuild:  note: Planning build
+    - NOTE  | [iOS] xcodebuild:  note: Constructing build description
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'PodLib' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'Pods-App' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'App' from project 'App')
+    - NOTE  | [iOS] xcodebuild:  warning: Skipping code signing because the target does not have an Info.plist file and one is not being generated automatically. (in target 'App' from project 'App')
+
+Updating the `PodLib' repo
+
+Your configuration specifies to merge with the ref 'refs/heads/master'
+from the remote, but no such ref was fetched.
+
+Adding the spec to the `PodLib' repo
+
+ - [Add] PodLib (0.2.0)
+
+Pushing the `PodLib' repo
+
+xlsn0w$ cd /Users/xlsn0w/Desktop/RxSwiftDemo 
+xlsn0w$ pod install
+
+Analyzing dependencies
+Downloading dependencies
+Installing PodLib (0.2.0)
+Using RxSwift (5.1.1)
+Generating Pods project
+Integrating client project
+Sending stats
+Pod installation complete! There are 2 dependencies from the Podfile and 2 total pods installed.
+
+
+
+```
 
 Podfile：描述了工程中 Taget 的依赖。客户端使用这个文件使用 Pod 库。
 Pod library：具体的库，即通常所说的第三方库。
