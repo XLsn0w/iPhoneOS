@@ -108,12 +108,12 @@
 			children = (
 				4AED66AB1DB895C600C13EDC /* TableViewController */,
 				4A85F5501DA92AFC00DB882C /* Categories(实际应用中，这是一个单独的repo，所用需要调度其他模块的人，只需要依赖这个repo。这个repo由target-action维护者维护) */,
-				4A5CE5141C9531E9006AEDB9 /* CTMediator（这也是单独的repo，完整的中间件就这100行代码） */,
 				4A5CE5211C953D5A006AEDB9 /* DemoModule（target-action所在的模块，也就是提供服务的模块，这也是单独的repo，但无需被其他人依赖，其他人通过category调用到这里的功能） */,
 				4A5CE5001C9531C9006AEDB9 /* AppDelegate.h */,
 				4A5CE5011C9531C9006AEDB9 /* AppDelegate.m */,
 				4A5CE5031C9531C9006AEDB9 /* ViewController.h */,
 				4A5CE5041C9531C9006AEDB9 /* ViewController.m */,
+				4A5CE5141C9531E9006AEDB9 /* CTMediator（这也是单独的repo，完整的中间件就这100行代码） */,
 				4A5CE5061C9531C9006AEDB9 /* Main.storyboard */,
 				4A5CE5091C9531C9006AEDB9 /* Assets.xcassets */,
 				4A5CE50B1C9531C9006AEDB9 /* LaunchScreen.storyboard */,
