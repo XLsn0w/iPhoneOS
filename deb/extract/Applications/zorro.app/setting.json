@@ -1,0 +1,1179 @@
+{
+    "title":"设置",
+    "theme":{
+        "style": "Group",
+    },
+    "items":[
+        {
+            "label":"Language",
+            "cell":"Group"
+        },
+        {
+            "defaults":"Language",
+            "cell":"Segment",
+            "label":"Current Language",
+            "options":[
+                {
+                    "title":"EN",
+                    "shortTitle":"EN",
+                    "value":"en"
+                },
+                {
+                    "title":"繁體",
+                    "shortTitle":"繁體",
+                    "value":"zh-Hant"
+                }
+            ],
+            "key":"appLanguage",
+            "default":"en"
+        },
+        {
+            "label":"新机参数",
+            "cell":"Group"
+        },
+        
+        {
+            
+            "cell":"MultipleOption",
+            "minCount":1,
+            "label":"手机型号",
+            "options":[
+                {
+                    "title":"iPhone 4S",
+                    "shortTitle":"4S",
+                    "value":"iPhone4,1"
+                },
+                {
+                    "title":"iPhone 5 (GSM)",
+                    "shortTitle":"5",
+                    "value":"iPhone5,1"
+                },
+                {
+                    "title":"iPhone 5 (GSM+CDMA)",
+                    "shortTitle":"5",
+                    "value":"iPhone5,2"
+                },
+                {
+                    "title":"iPhone 5C (GSM)",
+                    "shortTitle":"5C",
+                    "value":"iPhone5,3"
+                },
+                {
+                    "title":"iPhone 5C(GSM+CDMA)",
+                    "shortTitle":"5C",
+                    "value":"iPhone5,4"
+                },
+                {
+                    "title":"iPhone 5S (GSM)",
+                    "shortTitle":"5S",
+                    "value":"iPhone6,1"
+                },
+                {
+                    "title":"iPhone 5c(GSM+CDMA)",
+                    "shortTitle":"5S",
+                    "value":"iPhone6,2"
+                },
+                {
+                    "title":"iPhone 6",
+                    "shortTitle":"6",
+                    "value":"iPhone7,2"
+                },
+                {
+                    "title":"iPhone 6 Plus",
+                    "shortTitle":"6P",
+                    "value":"iPhone7,1"
+                },
+                {
+                    "title":"iPhone 6S",
+                    "shortTitle":"6S",
+                    "value":"iPhone8,1"
+                },
+                {
+                    "title":"iPhone 6S Plus",
+                    "shortTitle":"6SP",
+                    "value":"iPhone8,2"
+                },
+                {
+                    "title":"iPhone SE",
+                    "shortTitle":"SE",
+                    "value":"iPhone8,4"
+                },
+                {
+                    "title":"iPhone 7",
+                    "shortTitle":"7",
+                    "value":"iPhone9,1"
+                },
+                {
+                    "title":"iPhone 7(美版、台版)",
+                    "shortTitle":"7",
+                    "value":"iPhone9,3"
+                },
+                {
+                    "title":"iPhone 7 Plus(港行、国行)",
+                    "shortTitle":"7P",
+                    "value":"iPhone9,2"
+                },
+                {
+                    "title":"iPhone 7 Plus(美版、台版)",
+                    "shortTitle":"7P",
+                    "value":"iPhone9,4"
+                },
+                {
+                    "title":"iPhone 8国行(A1863)、日行(A1906)",
+                    "shortTitle":"8",
+                    "value":"iPhone10,1"
+                },
+                {
+                    "title":"iPhone 8美版(Global/A1905)",
+                    "shortTitle":"8",
+                    "value":"iPhone10,4"
+                },
+                {
+                    "title":"iPhone 8 Plus国行(A1864)、日行(A1898)",
+                    "shortTitle":"8P",
+                    "value":"iPhone10,2"
+                },
+                {
+                    "title":"iPhone 8 Plus美版(Global/A1897)",
+                    "shortTitle":"8P",
+                    "value":"iPhone10,5"
+                },
+                {
+                    "title":"iPhone X国行(A1865)、日行(A1902)",
+                    "shortTitle":"X",
+                    "value":"iPhone10,3"
+                },
+                {
+                    "title":"iPhone X美版(Global/A1901)",
+                    "shortTitle":"X",
+                    "value":"iPhone10,6"
+                },
+                {
+                    "title":"iPhone XS",
+                    "shortTitle":"XS",
+                    "value":"iPhone11,2"
+                },
+                {
+                    "title":"iPhone XS Max",
+                    "shortTitle":"XSMax",
+                    "value":"iPhone11,6"
+                },
+                {
+                    "title":"iPhone XR",
+                    "shortTitle":"XR",
+                    "value":"iPhone11,8"
+                },
+                {
+                    "title":"iPhone 11",
+                    "shortTitle":"11",
+                    "value":"iPhone12,1"
+                },
+                {
+                    "title":"iPhone 11 Pro",
+                    "shortTitle":"11Pro",
+                    "value":"iPhone12,3"
+                },
+                {
+                    "title":"iPhone 11 Pro Max",
+                    "shortTitle":"11ProMax",
+                    "value":"iPhone12,5"
+                }
+            ],
+            "key":"Phones",
+            
+            
+        },
+        {
+            
+            "cell":"MultipleOption",
+            "minCount":1,
+            "label":"系统版本",
+            "options":[
+                {
+                    "title":"8.0",
+                    "shortTitle":"8.0",
+                    "value":"8.0"
+                },
+                {
+                    "title":"8.0.1",
+                    "shortTitle":"8.0.1",
+                    "value":"8.0.1"
+                },
+                {
+                    "title":"8.0.2",
+                    "shortTitle":"8.0.2",
+                    "value":"8.0.2"
+                },
+                {
+                    "title":"8.1",
+                    "shortTitle":"8.1",
+                    "value":"8.1"
+                },
+                {
+                    "title":"8.1.1",
+                    "shortTitle":"8.1.1",
+                    "value":"8.1.1"
+                },
+                {
+                    "title":"8.1.2",
+                    "shortTitle":"8.1.2",
+                    "value":"8.1.2"
+                },
+                {
+                    "title":"8.1.3",
+                    "shortTitle":"8.1.3",
+                    "value":"8.1.3"
+                },
+                {
+                    "title":"8.2",
+                    "shortTitle":"8.2",
+                    "value":"8.2"
+                },
+                {
+                    "title":"8.3",
+                    "shortTitle":"8.3",
+                    "value":"8.3"
+                },
+                {
+                    "title":"8.4",
+                    "shortTitle":"8.4",
+                    "value":"8.4"
+                },
+                {
+                    "title":"9.0",
+                    "shortTitle":"9.0",
+                    "value":"9.0"
+                },
+                {
+                    "title":"9.0.1",
+                    "shortTitle":"9.0.1",
+                    "value":"9.0.1"
+                },
+                {
+                    "title":"9.0.2",
+                    "shortTitle":"9.0.2",
+                    "value":"9.0.2"
+                },
+                {
+                    "title":"9.1",
+                    "shortTitle":"9.1",
+                    "value":"9.1"
+                },
+                {
+                    "title":"9.2",
+                    "shortTitle":"9.2",
+                    "value":"9.2"
+                },
+                {
+                    "title":"9.2.1",
+                    "shortTitle":"9.2.1",
+                    "value":"9.2.1"
+                },
+                {
+                    "title":"9.3",
+                    "shortTitle":"9.3",
+                    "value":"9.3"
+                },
+                {
+                    "title":"9.3.1",
+                    "shortTitle":"9.3.1",
+                    "value":"9.3.1"
+                },
+                {
+                    "title":"9.3.2",
+                    "shortTitle":"9.3.2",
+                    "value":"9.3.2"
+                },
+                {
+                    "title":"9.3.3",
+                    "shortTitle":"9.3.3",
+                    "value":"9.3.3"
+                },
+                {
+                    "title":"9.3.4",
+                    "shortTitle":"9.3.4",
+                    "value":"9.3.4"
+                },
+                {
+                    "title":"9.3.5",
+                    "shortTitle":"9.3.5",
+                    "value":"9.3.5"
+                },
+                {
+                    "title":"9.3.6",
+                    "shortTitle":"9.3.6",
+                    "value":"9.3.6"
+                },
+                {
+                    "title":"10.0.1",
+                    "shortTitle":"10.0.1",
+                    "value":"10.0.1"
+                },
+                {
+                    "title":"10.0.2",
+                    "shortTitle":"10.0.2",
+                    "value":"10.0.2"
+                },
+                {
+                    "title":"10.0.3",
+                    "shortTitle":"10.0.3",
+                    "value":"10.0.3"
+                },
+                {
+                    "title":"10.1",
+                    "shortTitle":"10.1",
+                    "value":"10.1"
+                },
+                {
+                    "title":"10.1.1",
+                    "shortTitle":"10.1.1",
+                    "value":"10.1.1"
+                },
+                {
+                    "title":"10.2",
+                    "shortTitle":"10.2",
+                    "value":"10.2"
+                },
+                {
+                    "title":"10.2.1",
+                    "shortTitle":"10.2.1",
+                    "value":"10.2.1"
+                },
+                {
+                    "title":"10.3",
+                    "shortTitle":"10.3",
+                    "value":"10.3"
+                },
+                {
+                    "title":"10.3.1",
+                    "shortTitle":"10.3.1",
+                    "value":"10.3.1"
+                },
+                {
+                    "title":"10.3.2",
+                    "shortTitle":"10.3.2",
+                    "value":"10.3.2"
+                },
+                {
+                    "title":"10.3.3",
+                    "shortTitle":"10.3.3",
+                    "value":"10.3.3"
+                },
+                {
+                    "title":"10.3.4",
+                    "shortTitle":"10.3.4",
+                    "value":"10.3.4"
+                },
+                {
+                    "title":"11.0",
+                    "shortTitle":"11.0",
+                    "value":"11.0"
+                },
+                {
+                    "title":"11.0.1",
+                    "shortTitle":"11.0.1",
+                    "value":"11.0.1"
+                },
+                {
+                    "title":"11.0.2",
+                    "shortTitle":"11.0.2",
+                    "value":"11.0.2"
+                },
+                {
+                    "title":"11.0.3",
+                    "shortTitle":"11.0.3",
+                    "value":"11.0.3"
+                },
+                {
+                    "title":"11.1",
+                    "shortTitle":"11.1",
+                    "value":"11.1"
+                },
+                {
+                    "title":"11.1.1",
+                    "shortTitle":"11.1.1",
+                    "value":"11.1.1"
+                },
+                {
+                    "title":"11.1.2",
+                    "shortTitle":"11.1.2",
+                    "value":"11.1.2"
+                },
+                {
+                    "title":"11.2",
+                    "shortTitle":"11.2",
+                    "value":"11.2"
+                },
+                {
+                    "title":"11.2.1",
+                    "shortTitle":"11.2.1",
+                    "value":"11.2.1"
+                },
+                {
+                    "title":"11.2.2",
+                    "shortTitle":"11.2.2",
+                    "value":"11.2.2"
+                },
+                {
+                    "title":"11.2.5",
+                    "shortTitle":"11.2.5",
+                    "value":"11.2.5"
+                },
+                {
+                    "title":"11.2.6",
+                    "shortTitle":"11.2.6",
+                    "value":"11.2.6"
+                },
+                {
+                    "title":"11.3",
+                    "shortTitle":"11.3",
+                    "value":"11.3"
+                },
+                {
+                    "title":"11.3.1",
+                    "shortTitle":"11.3.1",
+                    "value":"11.3.1"
+                },
+                {
+                    "title":"11.4",
+                    "shortTitle":"11.4",
+                    "value":"11.4"
+                },
+                {
+                    "title":"11.4.1",
+                    "shortTitle":"11.4.1",
+                    "value":"11.4.1"
+                },
+                {
+                    "title":"12.0",
+                    "shortTitle":"12.0",
+                    "value":"12.0"
+                },
+                {
+                    "title":"12.0.1",
+                    "shortTitle":"12.0.1",
+                    "value":"12.0.1"
+                },
+                {
+                    "title":"12.1",
+                    "shortTitle":"12.1",
+                    "value":"12.1"
+                },
+                {
+                    "title":"12.1.1",
+                    "shortTitle":"12.1.1",
+                    "value":"12.1.1"
+                },
+                {
+                    "title":"12.1.2",
+                    "shortTitle":"12.1.2",
+                    "value":"12.1.2"
+                },
+                {
+                    "title":"12.1.3",
+                    "shortTitle":"12.1.3",
+                    "value":"12.1.3"
+                },
+                {
+                    "title":"12.1.4",
+                    "shortTitle":"12.1.4",
+                    "value":"12.1.4"
+                },
+                {
+                    "title":"12.2",
+                    "shortTitle":"12.2",
+                    "value":"12.2"
+                },
+                {
+                    "title":"12.3",
+                    "shortTitle":"12.3",
+                    "value":"12.3"
+                },
+                {
+                    "title":"12.3.1",
+                    "shortTitle":"12.3.1",
+                    "value":"12.3.1"
+                },
+                {
+                    "title":"12.4",
+                    "shortTitle":"12.4",
+                    "value":"12.4"
+                },
+                {
+                    "title":"12.4.1",
+                    "shortTitle":"12.4.1",
+                    "value":"12.4.1"
+                },
+                {
+                    "title":"12.4.2",
+                    "shortTitle":"12.4.2",
+                    "value":"12.4.2"
+                },
+                {
+                    "title":"12.4.3",
+                    "shortTitle":"12.4.3",
+                    "value":"12.4.3"
+                },
+                {
+                    "title":"12.4.4",
+                    "shortTitle":"12.4.4",
+                    "value":"12.4.4"
+                },
+                {
+                    "title":"12.4.5",
+                    "shortTitle":"12.4.5",
+                    "value":"12.4.5"
+                },
+                {
+                    "title":"12.4.6",
+                    "shortTitle":"12.4.6",
+                    "value":"12.4.6"
+                },
+                {
+                    "title":"12.4.7",
+                    "shortTitle":"12.4.7",
+                    "value":"12.4.7"
+                },
+                {
+                    "title":"12.4.8",
+                    "shortTitle":"12.4.8",
+                    "value":"12.4.8"
+                },
+                {
+                    "title":"13.0",
+                    "shortTitle":"13.0",
+                    "value":"13.0"
+                },
+                {
+                    "title":"13.1",
+                    "shortTitle":"13.1",
+                    "value":"13.1"
+                },
+                {
+                    "title":"13.1.1",
+                    "shortTitle":"13.1.1",
+                    "value":"13.1.1"
+                },
+                {
+                    "title":"13.1.2",
+                    "shortTitle":"13.1.2",
+                    "value":"13.1.2"
+                },
+                {
+                    "title":"13.1.3",
+                    "shortTitle":"13.1.3",
+                    "value":"13.1.3"
+                },
+                {
+                    "title":"13.2",
+                    "shortTitle":"13.2",
+                    "value":"13.2"
+                },
+                {
+                    "title":"13.2.2",
+                    "shortTitle":"13.2.2",
+                    "value":"13.2.2"
+                },
+                {
+                    "title":"13.2.3",
+                    "shortTitle":"13.2.3",
+                    "value":"13.2.3"
+                },
+                {
+                    "title":"13.3",
+                    "shortTitle":"13.3",
+                    "value":"13.3"
+                },
+                {
+                    "title":"13.3.1",
+                    "shortTitle":"13.3.1",
+                    "value":"13.3.1"
+                },
+                {
+                    "title":"13.4",
+                    "shortTitle":"13.4",
+                    "value":"13.4"
+                },
+                {
+                    "title":"13.4.1",
+                    "shortTitle":"13.4.1",
+                    "value":"13.4.1"
+                },
+                {
+                    "title":"13.5",
+                    "shortTitle":"13.5",
+                    "value":"13.5"
+                },
+                {
+                    "title":"13.5.1",
+                    "shortTitle":"13.5.1",
+                    "value":"13.5.1"
+                },
+                {
+                    "title":"13.6",
+                    "shortTitle":"13.6",
+                    "value":"13.6"
+                },
+                {
+                    "title":"13.6.1",
+                    "shortTitle":"13.6.1",
+                    "value":"13.6.1"
+                }
+            ],
+            "key":"OSVersions"
+            
+        },
+        {
+            
+            "cell":"MultipleOption",
+            "minCount":1,
+            "label":"运营商",
+            "options":[
+                
+                {
+                    "title":"泰国AIS",
+                    "shortTitle":"泰国AIS",
+                    "value":"4"
+                },
+                {
+                    "title":"泰国DTAC",
+                    "shortTitle":"泰国DTAC",
+                    "value":"5"
+                },
+                {
+                    "title":"泰国TRUE-H",
+                    "shortTitle":"泰国TRUE-H",
+                    "value":"8"
+                },
+                {
+                    "title":"韩国SK",
+                    "shortTitle":"韩国SK",
+                    "value":"6"
+                },
+                {
+                    "title":"韩国KT",
+                    "shortTitle":"韩国KT",
+                    "value":"7"
+                },
+                {
+                    "title":"马来U Mobile",
+                    "shortTitle":"马来U Mobile",
+                    "value":"9"
+                },
+                {
+                    "title":"马来Celcom",
+                    "shortTitle":"马来Celcom",
+                    "value":"10"
+                },
+                {
+                    "title":"马来Digi",
+                    "shortTitle":"马来Digi",
+                    "value":"11"
+                },
+                {
+                    "title":"马来Maxis",
+                    "shortTitle":"马来Maxis",
+                    "value":"12"
+                },
+                {
+                    "title":"中国移动",
+                    "shortTitle":"移动",
+                    "value":"1"
+                },
+                {
+                    "title":"中国联通",
+                    "shortTitle":"联通",
+                    "value":"2"
+                },
+                {
+                    "title":"中国电信",
+                    "shortTitle":"电信",
+                    "value":"3"
+                },
+                {
+                    "title":"台灣-遠傳電信",
+                    "shortTitle":"台灣-遠傳電信",
+                    "value":"13"
+                },
+                {
+                    "title":"台灣-台灣大哥大",
+                    "shortTitle":"台灣-台灣大哥大",
+                    "value":"14"
+                },
+                {
+                    "title":"台灣-中華電信",
+                    "shortTitle":"台灣-中華電信",
+                    "value":"15"
+                },
+                {
+                    "title":"美国AT&T",
+                    "shortTitle":"美国AT&T",
+                    "value":"16"
+                },
+                {
+                    "title":"美国Sprint",
+                    "shortTitle":"美国Sprint",
+                    "value":"17"
+                },
+                {
+                    "title":"美国Verizon",
+                    "shortTitle":"美国Verizon",
+                    "value":"18"
+                },
+                {
+                    "title":"美国T-Mobile",
+                    "shortTitle":"美国T-Mobile",
+                    "value":"19"
+                },
+                {
+                    "title":"香港CSL",
+                    "shortTitle":"香港CSL",
+                    "value":"20"
+                },
+                {
+                    "title":"香港3",
+                    "shortTitle":"香港3",
+                    "value":"21"
+                },
+                {
+                    "title":"香港SmarTone",
+                    "shortTitle":"香港SmarTone",
+                    "value":"22"
+                },
+                {
+                    "title":"香港China Unicom",
+                    "shortTitle":"香港China Unicom",
+                    "value":"23"
+                },
+                {
+                    "title":"香港CMCC HK",
+                    "shortTitle":"香港CMCC HK",
+                    "value":"24"
+                },
+                {
+                    "title":"加拿大Bell",
+                    "shortTitle":"加拿大Bell",
+                    "value":"25"
+                },
+                {
+                    "title":"加拿大Rogers",
+                    "shortTitle":"加拿大Rogers",
+                    "value":"26"
+                },
+                {
+                    "title":"加拿大Telus",
+                    "shortTitle":"加拿大Telus",
+                    "value":"27"
+                },
+                {
+                    "title":"日本au",
+                    "shortTitle":"日本au",
+                    "value":"28"
+                },
+                {
+                    "title":"日本SoftBank",
+                    "shortTitle":"日本SoftBank",
+                    "value":"29"
+                },
+                {
+                    "title":"日本NTT",
+                    "shortTitle":"日本NTT",
+                    "value":"30"
+                },
+                {
+                    "title":"日本KDDI",
+                    "shortTitle":"日本KDDI",
+                    "value":"31"
+                },
+                {
+                    "title":"墨西哥 Nextel",
+                    "shortTitle":"墨西哥 Nextel",
+                    "value":"32"
+                },
+                {
+                    "title":"墨西哥 Telcel",
+                    "shortTitle":"墨西哥 Telcel",
+                    "value":"33"
+                },
+                {
+                    "title":"墨西哥 movistar",
+                    "shortTitle":"墨西哥 movistar",
+                    "value":"34"
+                },
+                {
+                    "title":"墨西哥 Iusacell",
+                    "shortTitle":"墨西哥 Iusacell",
+                    "value":"35"
+                },
+                {
+                    "title":"澳大利亚 Optus",
+                    "shortTitle":"澳大利亚 Optus",
+                    "value":"36"
+                },
+                {
+                    "title":"澳大利亚 Telstra",
+                    "shortTitle":"澳大利亚 Telstra",
+                    "value":"37"
+                },
+                {
+                    "title":"澳大利亚 Vodafone",
+                    "shortTitle":"澳大利亚 Vodafone",
+                    "value":"38"
+                },
+                {
+                    "title":"印度 AirTel",
+                    "shortTitle":"印度 AirTel",
+                    "value":"39"
+                },
+                {
+                    "title":"印度 IDEA",
+                    "shortTitle":"印度 IDEA",
+                    "value":"40"
+                },
+                {
+                    "title":"印度 BSNL",
+                    "shortTitle":"印度 BSNL",
+                    "value":"41"
+                },
+                {
+                    "title":"越南 MobiFone",
+                    "shortTitle":"越南 MobiFone",
+                    "value":"42"
+                },
+                {
+                    "title":"越南 Vinaphone",
+                    "shortTitle":"越南 Vinaphone",
+                    "value":"43"
+                },
+                {
+                    "title":"越南 S-Fone",
+                    "shortTitle":"越南 S-Fone",
+                    "value":"44"
+                },
+                {
+                    "title":"越南 Vietnamobile",
+                    "shortTitle":"越南 Vietnamobile",
+                    "value":"45"
+                },
+                {
+                    "title":"老挝 LaoTel",
+                    "shortTitle":"老挝 LaoTel",
+                    "value":"46"
+                },
+                {
+                    "title":"老挝 ETL",
+                    "shortTitle":"老挝 ETL",
+                    "value":"47"
+                },
+                {
+                    "title":"老挝 Unitel",
+                    "shortTitle":"老挝 Unitel",
+                    "value":"48"
+                },
+                {
+                    "title":"老挝 Tigo",
+                    "shortTitle":"老挝 Tigo",
+                    "value":"49"
+                },
+                {
+                    "title":"柬埔寨 Mobitel",
+                    "shortTitle":"柬埔寨 Mobitel",
+                    "value":"50"
+                },
+                {
+                    "title":"柬埔寨 Smart",
+                    "shortTitle":"柬埔寨 Smart",
+                    "value":"51"
+                },
+                {
+                    "title":"柬埔寨 Beeline",
+                    "shortTitle":"柬埔寨 Beeline",
+                    "value":"52"
+                },
+                {
+                    "title":"英国 O2",
+                    "shortTitle":"英国 O2",
+                    "value":"53"
+                },
+                {
+                    "title":"英国 Orange",
+                    "shortTitle":"英国 Orange",
+                    "value":"54"
+                },
+                {
+                    "title":"英国 T-Mobile",
+                    "shortTitle":"英国 T-Mobile",
+                    "value":"55"
+                },
+                {
+                    "title":"英国 Vodafone",
+                    "shortTitle":"英国 Vodafone",
+                    "value":"56"
+                },
+                {
+                    "title":"巴基斯坦 Mobilink",
+                    "shortTitle":"巴基斯坦 Mobilink",
+                    "value":"57"
+                },
+                {
+                    "title":"巴基斯坦 Ufone",
+                    "shortTitle":"巴基斯坦 Ufone",
+                    "value":"58"
+                },
+                {
+                    "title":"巴基斯坦 Zong",
+                    "shortTitle":"巴基斯坦 Zong",
+                    "value":"59"
+                },
+                {
+                    "title":"巴基斯坦 Telenor",
+                    "shortTitle":"巴基斯坦 Telenor",
+                    "value":"60"
+                },
+                {
+                    "title":"德国 T-Mobile",
+                    "shortTitle":"德国 T-Mobile",
+                    "value":"61"
+                },
+                {
+                    "title":"德国 Vodafone",
+                    "shortTitle":"德国 Vodafone",
+                    "value":"62"
+                },
+                {
+                    "title":"法国 Bouygues",
+                    "shortTitle":"法国 Bouygues",
+                    "value":"63"
+                },
+                {
+                    "title":"法国 Orange",
+                    "shortTitle":"法国 Orange",
+                    "value":"64"
+                },
+                {
+                    "title":"法国 SFR",
+                    "shortTitle":"法国 SFR",
+                    "value":"65"
+                },
+                {
+                    "title":"菲律宾 Smart",
+                    "shortTitle":"菲律宾 Smart",
+                    "value":"66"
+                },
+                {
+                    "title":"菲律宾 Globe Telecom",
+                    "shortTitle":"菲律宾 Globe",
+                    "value":"67"
+                }
+            ],
+            "key":"Carrier"
+        },
+        {
+            
+            "cell":"MultipleOption",
+            "minCount":1,
+            "label":"网络类型",
+            "options":[
+                {
+                    "title":"2G",
+                    "shortTitle":"2G",
+                    "value":"1"
+                },
+                {
+                    "title":"3G",
+                    "shortTitle":"3G",
+                    "value":"2"
+                },
+                {
+                    "title":"4G",
+                    "shortTitle":"4G",
+                    "value":"3"
+                },
+                {
+                    "title":"WiFi",
+                    "shortTitle":"WiFi",
+                    "value":"5"
+                }
+            ],
+            "key":"NetType"
+            
+        },
+        {
+            "label":"模拟参数",
+            "cell":"Group"
+        },
+        {
+            "cell":"Switch",
+            "label":"BackupWhenClean",
+            "key":"SwitchAutoBackup",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"反越狱检测",
+            "key":"SwitchFakeJailbreak",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"VPN隐藏",
+            "key":"SwitchFakeVPN",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"网络模拟",
+            "key":"SwitchFakeNetworkInfo",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"运营商模拟",
+            "key":"SwitchFakeCarrierInfo",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"屏幕模拟(S)",
+            "key":"SwitchFakeScreen",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"屏幕模拟(M)",
+            "key":"SwitchFakeScreenMode",
+            "default":false
+        },
+        {
+            "label":"增强插件",
+            "cell":"Group"
+        },
+        {
+            "cell":"Switch",
+            "label":"模拟高版本防闪退(游戏专用)",
+            "key":"SwitchFakeHigh",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"智能飞行模式",
+            "key":"SwitchSmartAirplane",
+            "default":false
+        },
+          
+        {
+            "label":"定位管理",
+            "cell":"Group"
+        },
+        {
+            "cell":"Switch",
+            "label":"定位模拟开启",
+            "detail":"LocationByIP",
+            "key":"SwitchFakeLocation",
+            "default":false
+        },
+        {
+            "cell":"Switch",
+            "label":"LocationByIP",
+            "detail":"LocationByIPDescription",
+            "key":"SwitchLocationByIP",
+            "default":false
+        },
+        {
+            "cell":"Button",
+            "label":"LocationByCity",
+            "detail":"LocationByCityDescription",
+            "args":{
+                "cmd": "SetCityLocation"
+            },
+            "action":"BaseCommand:"
+        },
+        {
+            "label":"ExportGroup",
+            "cell":"Group"
+        },
+        {
+            "cell":"Button",
+            "label":"导出备份记录",
+            "args":{
+                "cmd": "export"
+            },
+            "action":"BaseCommand:"
+        },
+        {
+            "cell":"Button",
+            "label":"导入备份记录",
+            "args":{
+                "cmd": "import"
+            },
+            "action":"BaseCommand:"
+        },
+        {
+            "cell":"Button",
+            "label":"文件管理器",
+            "args":{
+                "cmd": "siteview"
+            },
+            "action":"BaseCommand:"
+        },
+        {
+            "label":"附加功能",
+            "cell":"Group"
+        },
+        {
+            "cell":"Button",
+            "label":"重载SpringBoard",
+            "args":{
+                "url": ""
+            },
+            "action":"KillSpringBoard:"
+        },
+        {
+            "cell":"Button",
+            "label":"重启设备(需重新越狱)",
+            "args":{
+                "url": ""
+            },
+            "action":"RebootDevice:"
+        },
+        {
+            "label":"其它",
+            "cell":"Group"
+        },
+        {
+            "cell":"Button",
+            "label":"修復備份記錄權限",
+            "args":{
+                "cmd": "FixBackupPermission"
+            },
+            "action":"BaseCommand:"
+        },
+        {
+            "cell":"Button",
+            "label":"更新日志",
+            "args":{
+                "url": ""
+            },
+            "action":"VerHistory:"
+        },
+        {
+            "cell":"Button",
+            "label":"免责声明",
+            "args":{
+                "url": ""
+            },
+            "action":"Disclaimer:"
+        },
+        {
+            "cell":"Button",
+            "label":"意见反馈",
+            "args":{
+                "url": ""
+            },
+            "action":"Feedback:"
+        }
+        
+    ]
+}
+
+

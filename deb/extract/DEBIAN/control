@@ -1,0 +1,16 @@
+Package: XLsn0wfaker
+Name: XLsn0w改机伪装屏蔽注册
+Version: 5.0.0
+Description: iOS8-14改机伪装屏蔽设备锁定注册
+Section: 工具
+Depends: firmware (>= 8.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: XLsn0w
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: XLsn0w
+Icon: icon.png

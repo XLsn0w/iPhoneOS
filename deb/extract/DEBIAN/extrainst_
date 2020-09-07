@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [[ $1 == upgrade ]]; then
+    launchctl unload /Library/LaunchDaemons/com.zorro.startup.plist
+fi
+
+if [[ $1 == install || $1 == upgrade ]]; then
+    launchctl load /Library/LaunchDaemons/com.zorro.startup.plist
+fi
+
+uicache
+
+exit 0
