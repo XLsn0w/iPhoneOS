@@ -111,6 +111,7 @@ struct {
  retain 引用计数 +1
  release 引用计数 -1
  autorelease 将代码放入到自动释放池中，当代码运行完成以后，所有调用autorelease的对象调用relrese
+ 
  61.2.2.2 MRC管理的四法则
  1 . 自己生成并自己持有
 
@@ -152,7 +153,9 @@ struct {
 
  在ARC中会经常出现的一个问题循环引用问题。
 
- 61.2.3.1 ARC中的所有权修饰符
+ 61.2.3.1
+ 
+ ARC中的所有权修饰符
  strong
  weak
  unsafe_unretaied
@@ -198,8 +201,7 @@ struct {
 
  __autoreleasing需要注意的地方2
 
- - (void)loopThroughDictionary:(NSDictionary *)dict error:(NSError **)error
- {
+ - (void)loopThroughDictionary:(NSDictionary *)dict error:(NSError **)error {
      [dict enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop){
 
            // do stuff

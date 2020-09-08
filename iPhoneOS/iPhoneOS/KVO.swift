@@ -72,13 +72,8 @@ class KVO: UIView {
     @property (nonatomic, copy) NSMutableArray * array;这样写有什么影响？
     因为copy方法返回的都是不可变对象，所以array对象实际上是不可变的，如果对其进行可变操作如添加移除对象，则会造成程序crash
     64人点赞
-    iOS面试题
 
-
-    作者：Theendisthebegi
-    链接：https://www.jianshu.com/p/e70bac443cf2
-    来源：简书
-    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     
     */
 
 }
