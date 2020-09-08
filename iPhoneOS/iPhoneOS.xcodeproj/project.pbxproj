@@ -30,6 +30,8 @@
 		35F3059023F6EAE8007802E8 /* iPhoneOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3058F23F6EAE8007802E8 /* iPhoneOSUITests.swift */; };
 		35F305A023F6EB19007802E8 /* isa.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F3059F23F6EB19007802E8 /* isa.m */; };
 		35F57CE123FACD5500B4CE14 /* KVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F57CE023FACD5500B4CE14 /* KVO.swift */; };
+		7894D9F82507644900B04236 /* iPhoneIsJailbroken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7894D9F72507644900B04236 /* iPhoneIsJailbroken.m */; };
+		7894D9FB250779BD00B04236 /* ARM.s in Sources */ = {isa = PBXBuildFile; fileRef = 7894D9FA250779BD00B04236 /* ARM.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		35F3059E23F6EB19007802E8 /* isa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isa.h; sourceTree = "<group>"; };
 		35F3059F23F6EB19007802E8 /* isa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isa.m; sourceTree = "<group>"; };
 		35F57CE023FACD5500B4CE14 /* KVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVO.swift; sourceTree = "<group>"; };
+		7894D9F62507644900B04236 /* iPhoneIsJailbroken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneIsJailbroken.h; sourceTree = "<group>"; };
+		7894D9F72507644900B04236 /* iPhoneIsJailbroken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneIsJailbroken.m; sourceTree = "<group>"; };
+		7894D9F9250779BD00B04236 /* ARM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARM.h; sourceTree = "<group>"; };
+		7894D9FA250779BD00B04236 /* ARM.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = ARM.s; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,8 @@
 		35F3056C23F6EAE6007802E8 /* iPhoneOS */ = {
 			isa = PBXGroup;
 			children = (
+				7894D9F62507644900B04236 /* iPhoneIsJailbroken.h */,
+				7894D9F72507644900B04236 /* iPhoneIsJailbroken.m */,
 				35F3056D23F6EAE6007802E8 /* AppDelegate.swift */,
 				35F3056F23F6EAE6007802E8 /* SceneDelegate.swift */,
 				35F3057123F6EAE6007802E8 /* ContentView.swift */,
@@ -154,6 +162,8 @@
 				35A92F2E23F98258004CA0A3 /* ResponView.m */,
 				35F3059E23F6EB19007802E8 /* isa.h */,
 				35F3059F23F6EB19007802E8 /* isa.m */,
+				7894D9F9250779BD00B04236 /* ARM.h */,
+				7894D9FA250779BD00B04236 /* ARM.s */,
 				353BFF5D24017BFF00901372 /* Heap.swift */,
 				353BFF5B2401798E00901372 /* Stack.swift */,
 				353BFF5F24017C4C00901372 /* Queue.swift */,
@@ -325,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7894D9FB250779BD00B04236 /* ARM.s in Sources */,
 				35F3056E23F6EAE6007802E8 /* AppDelegate.swift in Sources */,
 				353BFF6224017E2C00901372 /* Algorithm.swift in Sources */,
 				353BFF5C2401798E00901372 /* Stack.swift in Sources */,
@@ -336,6 +347,7 @@
 				352A6B6223FC2DDB00C6AC0C /* ViewController.swift in Sources */,
 				35A92F2C23F98212004CA0A3 /* Responder.m in Sources */,
 				35A92F2923F973EA004CA0A3 /* RunLooooop.m in Sources */,
+				7894D9F82507644900B04236 /* iPhoneIsJailbroken.m in Sources */,
 				35F305A023F6EB19007802E8 /* isa.m in Sources */,
 				351392FE23FE7BCC0097FCDD /* KVC.swift in Sources */,
 				35F3057023F6EAE6007802E8 /* SceneDelegate.swift in Sources */,

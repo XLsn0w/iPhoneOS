@@ -10,4 +10,8 @@
 
 @implementation isa
 
+- (void)compile {
+    __asm ()
+}
+
 @end
