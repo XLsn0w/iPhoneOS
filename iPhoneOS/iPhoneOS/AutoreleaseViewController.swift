@@ -12,11 +12,8 @@ class AutoreleaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-        
     }
+    
     //   https://opensource.apple.com/source/objc4/objc4-532/
     func loadBigData() {
         if let path = Bundle.main
